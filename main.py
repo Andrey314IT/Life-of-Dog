@@ -10,3 +10,9 @@ class Dog:
     self.age += 1
     self.weight += 2
     self.height += 10
+
+my_dog = Dog("Bobyk")
+print("Year -", my_dog.age, "Color-", my_dog.color, "Height -", my_dog.height)
+print(my_dog.type)
+my_dog.get_older_1()
+print("Year -", my_dog.age, "Color-", my_dog.color, "Height -", my_dog.height)
